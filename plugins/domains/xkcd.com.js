@@ -38,7 +38,7 @@ module.exports = {
 
         if (xkcd_data.has_large_image) {
             result.push({
-                href: xkcd_data.image.replace('.png', '_large.png'),
+                href: xkcd_data.image.replace('.png', '_2x.png'),
                 type: CONFIG.T.image_png,
                 rel: CONFIG.R.image
             });
